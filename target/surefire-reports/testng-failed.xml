@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="TE_Value" value="FFt1"/>
+  <parameter name="BTN" value="Firefox"/>
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="testScripts.SignInFunctionalValidation_Script">
+        <methods>
+          <include name="TearDown"/>
+          <include name="NavigateToSignInPage"/>
+          <include name="Open_And_LaunchApp"/>
+          <include name="setup_Fun"/>
+        </methods>
+      </class> <!-- testScripts.SignInFunctionalValidation_Script -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

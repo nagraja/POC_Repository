@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  
+  <parameter name="BTN" value="Firefox"/>
+  <parameter name="TE_Value" value="Tested In FF"/>
+  
+  <test thread-count="2" name="Test">
+    <classes>
+      <class name="testScripts.SignInValidation_Script"/>
+      <class name="testScripts.SignInFunctionalValidation_Script"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
